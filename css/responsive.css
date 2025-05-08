@@ -1,0 +1,291 @@
+@media screen and (max-width: 1200px) {    
+.font-80{
+    font-size: 4rem;
+}
+    .game-about-head-bigger::after{
+        font-size: 6rem;
+    }
+
+    /* await start */
+    .achieve-val-container::after{
+        font-size: 6.5rem;
+    }
+
+    /* await end */
+
+    /* register start */
+    .register-content-container{
+        flex-wrap: wrap;
+        row-gap: 1rem;
+        justify-content: center;
+    }
+
+    .register-card{
+        width:40%;
+    }
+    /* register end */
+
+    /* sponsor start */
+    .sponsor-container{
+        grid-template-columns: auto auto auto auto;
+        margin: 0
+    }
+    /* sponsor start */
+}
+
+@media screen and (max-width: 1100px) {
+    .custom-container{
+        margin: 0 50px;
+    }
+
+    .section-margin{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    /* font start */
+    .font-68{
+        font-size: 3.25rem;
+    }
+    /* font end */
+
+    /* banner start */
+    .banner{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .banner-content{
+        max-width: calc(100% - 6rem);
+        width: calc(100% - 6rem);
+        margin: 0 auto;
+    }
+
+    .banner-line2{
+        width: 100%;
+    }
+    /* banner end */
+
+    /* carousel start */
+    .owl-carousel1.owl-carousel .owl-dots{
+        /* margin-top: 5rem; */
+    }
+    /* carousel end */
+
+    /* happens start */
+    .happen-cards-container{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .happen-card{
+        width: calc(50% - 0.5rem);
+    }
+    /* happens end */
+
+    /* await start */
+
+    .await-content-container{
+        margin-bottom: 4rem;
+    }
+    /* await end */
+}
+
+@media screen and (max-width: 992px) {
+    .font-80{
+        font-size: 3.5rem;
+    }
+    .game-about-head-bigger::after{
+        content: "";
+    }
+
+    
+    /* await start */
+    .await-content-container{
+        flex-wrap: wrap;
+        gap: unset;
+        row-gap: 1rem;
+        justify-content: center;
+    }
+
+    .await-card{
+        width: 100%;
+        max-width: 600px;
+    }
+
+  
+
+    .achieve-val-container::after{
+        content: "";
+    }
+    /* await end */
+
+    /* register start */
+    .register-content-container{
+        justify-content: center;
+    }
+
+    .register-card{
+        width:300px;
+    }
+    /* register end */
+
+    /* footer start */
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    
+    .foot-contact{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    /* footer end */
+}
+
+@media screen and (max-width:776px) {
+    /* await start */
+    .achieve-val-container{
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+
+    .achieve-card{
+        width: 50%;
+    }
+    /* await end */
+
+    /* sponsor start */
+    .sponsor-container{
+        grid-template-columns: auto auto auto;
+    }
+    /* sponsor start */
+    
+}
+
+@media screen and (max-width: 576px) {
+    .custom-container{
+        margin: 0;
+    }
+
+    .logo-img{
+        width: 110px;
+        height: 75px;
+    }
+
+    /* font start */
+    
+.font-16-normal{
+    font-size: 1rem;
+}
+
+.font-14-normal{
+    font-size: 0.75rem;
+}
+
+.font-16{ 
+    font-size: 1rem;
+}
+
+.font-17{
+    font-size: 0.875rem;
+}
+
+.font-28{
+    font-size: 1.25rem;
+}
+
+.font-32{
+    font-size: 1.5rem;
+}
+
+.font-36{
+    font-size: 2rem;
+    font-family: Oswald DemiBold;
+}
+
+.font-56{
+    font-size: 3.5rem;
+}
+
+.font-68{
+    font-size: 3.25rem;
+}
+
+.font-80{
+    font-size: 2.5rem;
+}
+
+/* font end */
+
+    /* banner start */
+    .banner-content{
+        
+    }
+    /* banner end */
+
+    /* font start */
+    .font-68{
+        font-size: 2rem;
+    }
+    /* font end */
+
+     /* carousel start */
+     .owl-carousel1.owl-carousel .owl-dots{
+        margin-top: 3rem;
+    }
+
+    .owl-carousel1.owl-carousel .owl-nav button.owl-prev{
+        left: 0;
+    }
+
+    .owl-carousel1.owl-carousel .owl-nav button.owl-next{
+        right: 0;
+    }
+    /* carousel end */
+
+    /* beyond game start */
+        .beyond-game-cards-container{
+            flex-direction: column;
+            column-gap: 1rem;
+        }
+
+        .beyond-game-cards{
+            width: 100%;
+        }
+    /* beyond game end */
+
+    /* happens start */
+    .happen-cards-container{
+        justify-content: unset;
+    }
+
+    .happen-card{
+        width: calc(100%);
+    }
+    /* happens end */
+
+    /* sponsor start */
+    .sponsor-container{
+        grid-template-columns: auto auto;
+    }
+    /* sponsor start */
+    
+    /* footer start */
+    .foot-column{
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+
+    .foot-contact{
+        width: 100%;
+    }
+    /* footer end */
+}
+@media screen and (max-width:375px) {
+    /* footer start */
+    .foot-column{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    /* footer end */
+}
